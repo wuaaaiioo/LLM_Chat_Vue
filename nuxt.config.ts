@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   srcDir: '.',
   pages: true, // 显式启用pages路由
-  modules: ['@element-plus/nuxt','@pinia/nuxt'],
+  modules: ['@element-plus/nuxt','@pinia/nuxt','@vercel/speed-insights'],
   imports: {
     dirs: ['stores/**','composables/**'] // 自动导入 stores 目录下的 Pinia 仓库
   },
